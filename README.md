@@ -1,6 +1,6 @@
 # Open PDF Extension
 
-(Dual coded with [@BachoSeven](https://github.com/BachoSeven/), this is his [repo](https://github.com/BachoSeven/cooming-soon))
+(Dual coded with [@BachoSeven](https://github.com/BachoSeven/), this is his [repo](https://github.com/BachoSeven/pdfExt))
 
 -   Link `open-pdf.sh` in a place available in `$PATH`.
 
