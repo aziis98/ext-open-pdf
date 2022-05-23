@@ -1,9 +1,11 @@
 #!/bin/bash
 
-URL="$(echo "$1" | sed -re 's|^example-1://||')"
+PROGRAM=evince
+
+URL="$(echo "$1" | sed -re 's|^open-pdf://||')"
 
 notify-send -i system 'Openning PDF' "$URL"
 
-evince "$URL"
+$PROGRAM "$URL"
 
 

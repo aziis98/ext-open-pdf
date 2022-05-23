@@ -4,6 +4,6 @@
 
 -   Link `open-pdf.sh` in a place available in `$PATH`.
 
--   Link `example-1.desktop` inside `share/applications/`
+-   Link `open-pdf.desktop` inside `share/applications/`
 
 -   Add the extension to Chrome
