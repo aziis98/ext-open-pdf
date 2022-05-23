@@ -1,0 +1,12 @@
+{
+    "name": "Open PDF",
+    "description": "Open PDFs in an external program",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://*/*.pdf"],
+            "js": ["content-script.js"]
+        }
+    ]
+}
